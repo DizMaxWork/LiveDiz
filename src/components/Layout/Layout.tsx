@@ -6,5 +6,9 @@ export interface ILayoutProps {
 }
 
 export default function Layout({ children }: ILayoutProps) {
-  return <div>{children}</div>;
+  return (
+    <div className={styles.mainBg}>
+      <div className="container mx-auto px-4">{children}</div>
+    </div>
+  )
 }
