@@ -1,0 +1,9 @@
+.arrows::before{
+    content: '';
+    position: absolute;
+    background: url(../../../img/top-arrow.svg);
+    top: -20px;
+    left: 35px;
+    width: 76px;
+    height: 52px;
+}

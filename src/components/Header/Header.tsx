@@ -4,36 +4,38 @@ import logo from "./../../img/logo.svg";
 
 export default function Header() {
   return (
-    <div>
-      <div className=" flex text-white">
-        <div className=" flex">
+    <header>
+      <div className=" flex text-white pt-4">
+        <div className="w-full flex justify-between">
           <div>
-            <img src={logo} alt="Logo" />
+            <a href="#">
+              <img src={logo} alt="Logo" />
+            </a>
           </div>
-          <nav>
-            <ul className=" flex">
-              <li>
+          <nav className="w-2/5">
+            <ul className=" flex -mx-2">
+              <li className="px-2">
                 <a href="#">Сайты</a>
               </li>
-              <li>
+              <li className="px-2">
                 <a href="#">Услуги</a>
               </li>
-              <li>
+              <li className="px-2">
                 <a href="#">Команда</a>
               </li>
-              <li>
+              <li className="px-2">
                 <a href="#">Блог</a>
               </li>
-              <li>
+              <li className="px-2">
                 <a href="#">Контакты</a>
               </li>
             </ul>
           </nav>
         </div>
-        <div>
+        <div className="w-1/6 flex justify-end">
           <a href="tel:+79284692061">8 928 469 20 61</a>
         </div>
       </div>
-    </div>
+    </header>
   );
 }

@@ -1,0 +1,11 @@
+.listBorder{
+    border: 1px solid #15995F;
+    border-radius: 15px;
+    padding: 8px 30px;
+    margin: 0 8px;
+    cursor: pointer;
+    transition: background ease .5s;
+}
+.listBorder:hover{
+    background-color: #15995F;
+}
