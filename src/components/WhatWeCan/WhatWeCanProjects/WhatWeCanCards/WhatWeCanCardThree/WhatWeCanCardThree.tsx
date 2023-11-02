@@ -3,7 +3,7 @@ import vodka from "../../../../../img/3.png";
 
 export default function WhatWeCanCardThree() {
   return (
-    <div className="w-fit ml-auto -mt-80">
+    <div>
       <div>
         <img src={vodka} alt="ГлавФинанс" />
       </div>

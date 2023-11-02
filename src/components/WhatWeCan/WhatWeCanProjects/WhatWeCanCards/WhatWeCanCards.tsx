@@ -3,7 +3,6 @@ import WhatWeCanCardOne from "./WhatWeCanCardOne/WhatWeCanCardOne";
 import WhatWeCanCardTwo from "./WhatWeCanCardTwo/WhatWeCanCardTwo";
 import WhatWeCanCardThree from "./WhatWeCanCardThree/WhatWeCanCardThree";
 import WhatWeCanCardFour from "./WhatWeCanCardFour/WhatWeCanCardFour";
-import WhatWeCanCardFive from "./WhatWeCanCardFive/WhatWeCanCardFive";
 import WhatWeCanCardSix from "./WhatWeCanCardSix/WhatWeCanCardSix";
 
 export default function WhatWeCanCards() {
@@ -11,9 +10,11 @@ export default function WhatWeCanCards() {
     <div>
       <WhatWeCanCardOne />
       <WhatWeCanCardTwo />
-      <WhatWeCanCardThree />
+      <div className="w-fit ml-auto -mt-80">
+        <WhatWeCanCardThree />
+      </div>
       <div className="flex justify-between pt-32">
-        <WhatWeCanCardFive />
+        <WhatWeCanCardThree />
         <WhatWeCanCardFour />
       </div>
       <WhatWeCanCardTwo />
